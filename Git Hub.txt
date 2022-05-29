@@ -1,0 +1,49 @@
+1. Create an external repository called TXT.
+
+2. Clone the TXT repository to a local computer.
+$ git clone https://github.com/galia93/TXT.git
+
+3. Create a file inside the local TXT "tale1.txt".
+$ touch tale1.txt
+
+4. Add the file for Git.
+$ git add tale1.txt
+
+5. Commit the file.
+$ git commit -m "The fox and the grapes"
+
+6. Send the file to an external GitHub repository.
+$ git status
+$ git push
+
+7. Add any information to the file "tale1.txt".
+$ cat > tale1.txt
+
+8. Send the changes to an external repository.
+$ git status
+$ git add tale1.txt
+$ git status
+$ git commit -m "The fox and the grapes"
+$ git push
+
+9. Create a file "tale2.txt" and add any information there.
+$ cat >> tale2.txt
+
+10. Create a file "tale3.txt" and add any information there.
+$ cat >> tale3.txt
+
+11. Make the same commit for both files.
+$ git add .
+$ git status
+$ git commit -am "fairy tales"
+
+12. Send both files to an external repository at once.
+$ git status
+$ git push
+
+13. Create a file on the web interface "bug_report.txt" adding any bug report there.
+
+14. Make commit changes (save) changes on the web interface.
+
+15. Synchronize the external and local TXT repository.
+$ git pull
